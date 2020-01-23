@@ -5,9 +5,11 @@ module.exports = {
             // modules: false,
             targets: {
                 // ie: 9,
-                node: 8,
+                node: 12,
             },
             useBuiltIns: 'usage',
+            corejs: 3,
+            // debug: true,
         }],
         ['@babel/preset-react'],
     ],
